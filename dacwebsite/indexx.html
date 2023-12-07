@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="desin\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" class="logo">Our Movies</a>
+            <ul class="nav">
+                <li><a href="#"><ion-icon name="home"></ion-icon></a></li>
+                <li><a href="#">Adults</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to Text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </header>
+        <div class="banner">  
+            <div class="content moving-castle active">
+                <img src="png title/howsl.png" alt="" class="movie-title">
+                <h4>
+                    <span>2016</span> <span><i>12+</i></span>
+                    <span>1h 47mins</span> <span>Fantasy/Adventure</span>
+                </h4>
+                <p>
+                    Sophie Hatter is a pretty average girl whose been left to maintain her family's hat shop. However, she gets cursed one day by the Witch of the Waste and is turned into an old woman.
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('trailers/Castle.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="content hotarubi">
+                <img src="png title/hotarubinomori.png" alt="Movie Name" class="movie-title">
+                <h4>
+                    <span>2022</span> <span><i>12+</i></span>
+                    <span>1h 55mins</span> <span>Romance novel/Supernatural fiction</span>
+                </h4>
+                <p>
+                    A six-year-old girl named Hotaru Takegawa, who gets lost in a forest inhabited by a mountain spirit, as well as yōkai (strange apparitions from Japanese folklore)
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('trailers/Hotarubi no Mori E English Trailer.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="content spirited">
+                <img src="png title/spirit.png" alt="Movie Name" class="movie-title">
+                <h4>
+                    <span>2016</span> <span><i>12+</i></span>
+                    <span>2h 9mins</span> <span>Fantasy/Adventure</span>
+                </h4>
+                <p>
+                    A sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts.
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('trailers/SPIRITED AWAY _ Official English Trailer.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="content neighbor">
+                <img src="png title/neighb.png" alt="Movie Name" class="movie-title">
+                <h4>
+                    <span>2018</span> <span><i>15+</i></span>
+                    <span>1h 47mins</span> <span>Adventure/Supernatural</span>
+                </h4>
+                <p>
+                    When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('trailers/My Neighbor Totoro - Official Trailer.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="content nusec">
+                <img src="png title/monosike.png" alt="Movie Name" class="movie-title">
+                <h4>
+                    <span>2004</span> <span><i>15+</i></span>
+                    <span>1h 59mins</span> <span>Fantasy/Adventure</span>
+                </h4>
+                <p>
+                    On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('trailers/PRINCESS MONONOKE _ Official Trailer.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="content Suzume">
+                <img src="Moviepic/SUZUMEtitle.png" alt="Movie Name" class="movie-title">
+                <h4>
+                    <span>2022</span> <span><i>15+</i></span>
+                    <span>2h 2mins</span> <span>Adventure/Action</span>
+                </h4>
+                <p>
+                    As the skies turn red and the planet trembles, Japan stands on the brink of disaster. However, a determined teenager named Suzume
+                    sets out on a mission to save her country. Able to see supernatural forces that others cannot, it's up to her to close the mysterious
+                    doors that are spreading chaos across the land. A perilous journey awaits as the fate of Japan rests on her shoulders.
+                </p>
+                <div class="button">
+                    <a href="#" onclick="playVideo('Moviepic/SUZUME.mp4');"><ion-icon name="play"></ion-icon>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item"
+                    onclick="changeBg('howls.jpg', 'moving-castle')">
+                        <img src="pictures/howls.jpg" alt="">
+                    </div>
+ 
+                    <div class="carousel-item"
+                    onclick="changeBg('hotarubi.jpg', 'hotarubi')">
+                        <img src="pictures/minimalist poster.jfif" alt="">
+                    </div>
+ 
+                    <div class="carousel-item"
+                    onclick="changeBg('spirited.png', 'spirited')">
+                        <img src="pictures/spiriteed.jpg" alt="">
+                    </div>
+ 
+                    <div class="carousel-item"
+                    onclick="changeBg('totoru_.jpg', 'neighbor')">
+                        <img src="pictures/neighbor.jpg" alt="">
+                    </div>
+ 
+                    <div class="carousel-item"
+                    onclick="changeBg('nuseca.jpg', 'nusec')">
+                        <img src="pictures/nuseca.jpg" alt="">
+                    </div>
+ 
+                </div>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div class="trailer">
+            <video src="trailers/Castle.mp4" id="slider" controls="true" autoplay="true" type="video/mp4" muted></video>
+            <img class="close" src="pictures/xxclose.png" alt="" onclick="toggleVideo();">
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>$(document).ready(function(){
+            $('.carousel').carousel();
+          });</script>
+    </body>
+</html>
